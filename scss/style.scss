@@ -8,22 +8,729 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("../img/sp.jpg");
+  background-image: url("../img/2.png");
   div.container {
-    width: 800px;
-    
+    width: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: wrap;
     aside {
-      width: 800px;
+      width: 1000px;
       height: var(--size);
       background-color: rosybrown;
       display: flex;
       justify-content: center;
+      // hair
+      &.hair {
+        &-3 {
+          article {
+            div {
+              &:nth-child(3),
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(13),
+              &:nth-child(14),
+              &:nth-child(15),
+              &:nth-child(16),
+              &:nth-child(17) {
+                background-color: orange;
+              }
+            }
+          }
+        }
+        &-4 {
+          article {
+            div {
+              &:nth-child(3),
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(14),
+              &:nth-child(15),
+              &:nth-child(16),
+              &:nth-child(17),
+              &:nth-child(18),
+              &:nth-child(19) {
+                background-color: orange;
+              }
+            }
+          }
+        }
+      }
+      // hair - end
+      // face
+      &.face {
+        &-1 {
+          article {
+            div {
+              // iron-man
+
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(9),
+              &:nth-child(15),
+              &:nth-child(16),
+              &:nth-child(17),
+              &:nth-child(18),
+              &:nth-child(19),
+              &:nth-child(20) {
+                background-color: orange;
+              }
+              // iron-man
+            }
+          }
+        }
+        &-2 {
+          article {
+            div {
+              &:nth-child(2),
+              &:nth-child(3),
+              &:nth-child(22),
+              &:nth-child(21) {
+                background-color: black;
+              }
+              // iron-man
+              &:nth-child(2),
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(9),
+              &:nth-child(15),
+              &:nth-child(16),
+              &:nth-child(17),
+              &:nth-child(18),
+              &:nth-child(19),
+              &:nth-child(20),
+              &:nth-child(22) {
+                background-color: orange;
+              }
+              // iron-man - end
+            }
+          }
+        }
+        &-3 {
+          article {
+            div {
+              &:nth-child(2),
+              &:nth-child(4),
+              &:nth-child(22),
+              &:nth-child(20) {
+                background-color: black;
+              }
+              &:nth-child(3),
+              &:nth-child(21) {
+                background-color: #ddd;
+              }
+              // iron-man
+              &:nth-child(2),
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(9),
+              &:nth-child(10),
+              &:nth-child(11),
+              &:nth-child(12),
+              &:nth-child(13),
+              &:nth-child(14),
+              &:nth-child(15),
+              &:nth-child(16),
+              &:nth-child(17),
+              &:nth-child(18),
+              &:nth-child(19),
+              &:nth-child(20),
+              &:nth-child(22) {
+                background-color: orange;
+              }
+              // iron-man - end
+            }
+          }
+        }
+        &-4 {
+          article {
+            div {
+              &:nth-child(2),
+              &:nth-child(5),
+              &:nth-child(22),
+              &:nth-child(19) {
+                background-color: black;
+              }
+              &:nth-child(3),
+              &:nth-child(4),
+              &:nth-child(21),
+              &:nth-child(20) {
+                background-color: #ddd;
+              }
+              // iron-man
+              &:nth-child(2),
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(9),
+              &:nth-child(10),
+              &:nth-child(11),
+              &:nth-child(12),
+              &:nth-child(13),
+              &:nth-child(14),
+              &:nth-child(15),
+              &:nth-child(16),
+              &:nth-child(17),
+              &:nth-child(18),
+              &:nth-child(19),
+              &:nth-child(20),
+              &:nth-child(22) {
+                background-color: orange;
+              }
+              // iron-man - end
+            }
+          }
+        }
+        &-5 {
+          article {
+            div {
+              &:nth-child(2),
+              &:nth-child(6),
+              &:nth-child(22),
+              &:nth-child(18) {
+                background-color: black;
+              }
+              &:nth-child(3),
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(21),
+              &:nth-child(20),
+              &:nth-child(19) {
+                background-color: #ddd;
+              }
+              // iron-man
+              &:nth-child(2),
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(9),
+              &:nth-child(10),
+              &:nth-child(11),
+              &:nth-child(12),
+              &:nth-child(13),
+              &:nth-child(14),
+              &:nth-child(15),
+              &:nth-child(16),
+              &:nth-child(17),
+              &:nth-child(18),
+              &:nth-child(19),
+              &:nth-child(20),
+              &:nth-child(22) {
+                background-color: orange;
+              }
+              // iron-man - end
+            }
+          }
+        }
+        &-6 {
+          article {
+            div {
+              &:nth-child(2),
+              &:nth-child(7),
+              &:nth-child(22),
+              &:nth-child(17) {
+                background-color: black;
+              }
+              &:nth-child(3),
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(21),
+              &:nth-child(20),
+              &:nth-child(19),
+              &:nth-child(18) {
+                background-color: #ddd;
+              }
+              // iron-man
+              &:nth-child(2),
+              &:nth-child(22) {
+                background-color: orange;
+              }
+              // iron-man - end
+            }
+          }
+        }
+        &-7 {
+          article {
+            div {
+              &:nth-child(2),
+              &:nth-child(8),
+              &:nth-child(22),
+              &:nth-child(16) {
+                background-color: black;
+              }
+              &:nth-child(3),
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(21),
+              &:nth-child(20),
+              &:nth-child(19),
+              &:nth-child(18),
+              &:nth-child(17) {
+                background-color: #ddd;
+              }
+              // iron-man
+              &:nth-child(2),
+              &:nth-child(10),
+              &:nth-child(11),
+              &:nth-child(12),
+              &:nth-child(13),
+              &:nth-child(14),
+              
+              &:nth-child(22) {
+                background-color: orange;
+              }
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(16),
+              &:nth-child(17),
+              &:nth-child(18),
+              &:nth-child(19),
+              &:nth-child(20) {
+                background-color: #eee;
+              }
+              // iron-man - end
+            }
+          }
+        }
+        &-8 {
+          article {
+            div {
+              &:nth-child(3),
+              &:nth-child(9),
+              &:nth-child(21),
+              &:nth-child(15) {
+                background-color: black;
+              }
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(20),
+              &:nth-child(19),
+              &:nth-child(18),
+              &:nth-child(17),
+              &:nth-child(16) {
+                background-color: #ddd;
+              }
+              // iron-man
+              &:nth-child(2),
+              &:nth-child(10),
+              &:nth-child(11),
+              &:nth-child(12),
+              &:nth-child(13),
+              &:nth-child(14),
+              &:nth-child(22) {
+                background-color: orange;
+              }
+              // iron-man - end
+            }
+          }
+        }
+        &-9 {
+          article {
+            div {
+              &:nth-child(4),
+              &:nth-child(10),
+              &:nth-child(20),
+              &:nth-child(14) {
+                background-color: black;
+              }
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(9),
+              &:nth-child(19),
+              &:nth-child(18),
+              &:nth-child(17),
+              &:nth-child(16),
+              &:nth-child(15) {
+                background-color: #ddd;
+              }
+              // iron-man
+              &:nth-child(2),
+              &:nth-child(3),
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(9),
+              &:nth-child(10),
+              &:nth-child(11),
+              &:nth-child(12),
+              &:nth-child(13),
+              &:nth-child(14),
+              &:nth-child(15),
+              &:nth-child(16),
+              &:nth-child(17),
+              &:nth-child(18),
+              &:nth-child(19),
+              &:nth-child(20),
+              &:nth-child(21),
+              &:nth-child(22) {
+                background-color: orange;
+              }
+              // iron-man - end
+            }
+          }
+        }
+        &-10 {
+          article {
+            div {
+              &:nth-child(5),
+              &:nth-child(9),
+              &:nth-child(19),
+              &:nth-child(15) {
+                background-color: black;
+              }
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(18),
+              &:nth-child(17),
+              &:nth-child(16) {
+                background-color: #ddd;
+              }
+              // iron-man
+
+              &:nth-child(3),
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(9),
+              &:nth-child(10),
+              &:nth-child(11),
+              &:nth-child(12),
+              &:nth-child(13),
+              &:nth-child(14),
+              &:nth-child(15),
+              &:nth-child(16),
+              &:nth-child(17),
+              &:nth-child(18),
+              &:nth-child(19),
+              &:nth-child(20),
+              &:nth-child(21) {
+                background-color: orange;
+              }
+              // iron-man - end
+            }
+          }
+        }
+        &-11 {
+          article {
+            div {
+              &:nth-child(6),
+              &:nth-child(8),
+              &:nth-child(18),
+              &:nth-child(16) {
+                background-color: black;
+              }
+              &:nth-child(7),
+              &:nth-child(17) {
+                background-color: #ddd;
+              }
+              // iron-man
+              &:nth-child(2),
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(9),
+              &:nth-child(10),
+              &:nth-child(11),
+              &:nth-child(12),
+              &:nth-child(13),
+              &:nth-child(14),
+              &:nth-child(15),
+              &:nth-child(16),
+              &:nth-child(17),
+              &:nth-child(18),
+              &:nth-child(19),
+              &:nth-child(20),
+              &:nth-child(22) {
+                background-color: orange;
+              }
+              // iron-man - end
+            }
+          }
+        }
+        &-12 {
+          article {
+            div {
+              &:nth-child(7),
+              &:nth-child(17) {
+                background-color: black;
+              }
+              // iron-man
+              &:nth-child(2),
+              &:nth-child(3),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(9),
+              &:nth-child(10),
+              &:nth-child(11),
+              &:nth-child(12),
+              &:nth-child(13),
+              &:nth-child(14),
+              &:nth-child(15),
+              &:nth-child(16),
+              &:nth-child(17),
+              &:nth-child(18),
+              &:nth-child(19),
+              &:nth-child(21),
+              &:nth-child(22) {
+                background-color: orange;
+              }
+              // iron-man - end
+            }
+          }
+        }
+        &-13 {
+          article {
+            div {
+              // iron-man
+              &:nth-child(2),
+              &:nth-child(3),
+              &:nth-child(4),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(9),
+              &:nth-child(10),
+              &:nth-child(11),
+              &:nth-child(12),
+              &:nth-child(13),
+              &:nth-child(14),
+              &:nth-child(15),
+              &:nth-child(16),
+              &:nth-child(17),
+              &:nth-child(18),
+              &:nth-child(20),
+              &:nth-child(21),
+              &:nth-child(22) {
+                background-color: orange;
+              }
+              // iron-man - end
+            }
+          }
+        }
+        &-14 {
+          article {
+            div {
+              // iron-man
+              &:nth-child(2),
+              &:nth-child(3),
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(9),
+              &:nth-child(10),
+              &:nth-child(11),
+              &:nth-child(12),
+              &:nth-child(13),
+              &:nth-child(14),
+              &:nth-child(15),
+              &:nth-child(16),
+              &:nth-child(17),
+              &:nth-child(19),
+              &:nth-child(20),
+              &:nth-child(21),
+              &:nth-child(22) {
+                background-color: orange;
+              }
+              // iron-man - end
+            }
+          }
+        }
+        &-15 {
+          article {
+            div {
+              // iron-man
+
+              &:nth-child(3),
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(8),
+              &:nth-child(9),
+              &:nth-child(10),
+              &:nth-child(11),
+              &:nth-child(12),
+              &:nth-child(13),
+              &:nth-child(14),
+              &:nth-child(15),
+              &:nth-child(16),
+              &:nth-child(18),
+              &:nth-child(19),
+              &:nth-child(20),
+              &:nth-child(21) {
+                background-color: orange;
+              }
+              // iron-man - end
+            }
+          }
+        }
+      }
+      // face - end
+      // jaw
+      &.jaw {
+        &-1 {
+          article {
+            div {
+              // iron-man
+              &:nth-child(3),
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(9),
+              &:nth-child(10),
+              &:nth-child(11),
+              &:nth-child(12),
+              &:nth-child(13),
+              &:nth-child(14),
+              &:nth-child(15),
+              &:nth-child(17),
+              &:nth-child(18),
+              &:nth-child(19) {
+                background-color: orange;
+              }
+              // iron-man - end
+            }
+          }
+        }
+        &-2 {
+          article {
+            div {
+              // iron-man
+              &:nth-child(3),
+              &:nth-child(4),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(9),
+              &:nth-child(10),
+              &:nth-child(11),
+              &:nth-child(12),
+              &:nth-child(13),
+              &:nth-child(14),
+              &:nth-child(16),
+              &:nth-child(17) {
+                background-color: orange;
+              }
+              // iron-man - end
+            }
+          }
+        }
+        &-3 {
+          article {
+            div {
+              // iron-man
+              &:nth-child(3),
+              &:nth-child(15) {
+                background-color: orange;
+              }
+              // iron-man - end
+            }
+          }
+        }
+        &-4 {
+          article {
+            div {
+              // iron-man
+
+              &:nth-child(3),
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(9),
+              &:nth-child(10),
+              &:nth-child(11),
+              &:nth-child(12),
+              &:nth-child(13) {
+                background-color: orange;
+              }
+              // iron-man - end
+            }
+          }
+        }
+        &-5 {
+          article {
+            div {
+              // iron-man
+
+              &:nth-child(3),
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(9),
+              &:nth-child(10),
+              &:nth-child(11) {
+                background-color: orange;
+              }
+              // iron-man - end
+            }
+          }
+        }
+        &-6 {
+          article {
+            div {
+              // iron-man
+
+              &:nth-child(3),
+              &:nth-child(4),
+              &:nth-child(5),
+              &:nth-child(6),
+              &:nth-child(7),
+              &:nth-child(8),
+              &:nth-child(9) {
+                background-color: orange;
+              }
+              // iron-man - end
+            }
+          }
+        }
+      }
+      // jaw - end
       article {
-        width: 600px;
+        width: 1000px;
         height: var(--size);
         display: flex;
         justify-content: center;
