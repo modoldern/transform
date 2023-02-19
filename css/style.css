@@ -55,7 +55,7 @@ table {
 
 :root {
   --size: 15px;
-  --d: 8px;
+  --d: 10px;
   --red-tone-1: rgb(167, 0, 0);
   --red-tone-2: rgb(255, 0, 0);
   --red-tone-3: rgb(255, 82, 82);
