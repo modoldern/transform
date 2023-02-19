@@ -78,7 +78,7 @@ body div.container aside {
   justify-content: center;
 }
 body div.container aside.hair-3 article div:nth-child(3), body div.container aside.hair-3 article div:nth-child(4), body div.container aside.hair-3 article div:nth-child(5), body div.container aside.hair-3 article div:nth-child(6), body div.container aside.hair-3 article div:nth-child(7), body div.container aside.hair-3 article div:nth-child(13), body div.container aside.hair-3 article div:nth-child(14), body div.container aside.hair-3 article div:nth-child(15), body div.container aside.hair-3 article div:nth-child(16), body div.container aside.hair-3 article div:nth-child(17) {
-  background-color: orange;
+  background-color: rgb(200, 0, 255);
 }
 body div.container aside.hair-4 article div:nth-child(3), body div.container aside.hair-4 article div:nth-child(4), body div.container aside.hair-4 article div:nth-child(5), body div.container aside.hair-4 article div:nth-child(6), body div.container aside.hair-4 article div:nth-child(7), body div.container aside.hair-4 article div:nth-child(8), body div.container aside.hair-4 article div:nth-child(14), body div.container aside.hair-4 article div:nth-child(15), body div.container aside.hair-4 article div:nth-child(16), body div.container aside.hair-4 article div:nth-child(17), body div.container aside.hair-4 article div:nth-child(18), body div.container aside.hair-4 article div:nth-child(19) {
   background-color: orange;
