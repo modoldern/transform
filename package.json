@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "sassf": "^1.58.1"
+    "sass": "^1.58.1"
   },
   "name": "marvel",
   "version": "1.0.0",
