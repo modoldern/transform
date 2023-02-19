@@ -63,7 +63,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("../img/2.png");
 }
 body div.container {
   width: 1000px;
@@ -75,7 +74,6 @@ body div.container {
 body div.container aside {
   width: 1000px;
   height: var(--size);
-  background-color: rosybrown;
   display: flex;
   justify-content: center;
 }
